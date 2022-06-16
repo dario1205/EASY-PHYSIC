@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+	border-radius:15px;
+    font-size: 25px;
+   font-family: Sora;
+   font-weight: bolder;
+ color: whitesmoke;
+   
+}
+.grid-container> * {
+padding: 15px;
+
+}
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "home"
+    "con"
+}
+
+
+header{
+	flex: 1;
+    padding: auto;
+    color:#9772FB;
+}
+
+#sech{
+
+	font-size: 40px;
+	font-family: "Moul";
+	color: whitesmoke;
+    padding-right: 50px;
+
+}
+
+#m-header{
+    font-size: 35px;
+    background: none;
+    opacity: 1;
+    font-family: "homemade apple";
+}
+
+nav {
+	float: right;
+}
+	nav ul {
+
+		list-style: none;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+            font-size: 15px;
+            font-family:"Sora";
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+
+                nav a{
+                    color:whitesmoke;
+					font-weight: bolder;
+                }
+
+                nav ul li a:hover {
+					background:#9772FB;
+					color: white;
+				}
+
+body{
+    font-size: 1.2rem;
+    background-image: url("rt.jpg");
+}
+
+.home {
+	margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: home;
+}
+.in-flex {
+    flex: 1;
+    padding: 30px;
+    margin: 25px;
+    flex-direction: column;
+}
+
+
+.in-flex:first-child {
+    flex: 2;
+   
+}
+
+#int{
+text-align: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-align: justify;
+}
+
+
+button{
+background-color:#9772FB;
+border-radius: 15px;
+padding: 15px;
+}
+
+table{
+    border-spacing: 5px; 
+    background:whitesmoke;
+    border-radius:15px;
+    overflow:hidden;
+    max-width:700px;
+    max-height:300px; 
+    margin:0 auto;
+
+}
+
+thead tr        { 
+    background:#000000;
+    font-family: "Moul";
+    font-size: 25px;
+    color: rgb(220, 215, 215);
+    text-align: "center";
+    padding: 5px;
+    
+  }
+td        { 
+    height:60px;
+    font-size:17px;
+    color: black;
+    font-family: Sora;
+    padding: 5px;
+    
+  }
+
+  #tt-d{
+    background-color:whitesmoke;
+    padding: 5px;
+
+  }
+  table a:hover{
+    color: rgb(188, 96, 216);
+    text-decoration:underline;
+}
+
+footer{
+    background-color: #9772FB;
+    height: 40px;
+    border-radius: 0px;
+    margin: auto;
+    padding: auto;
+}
+
+#f1{
+    width: auto;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 50px;
+}
